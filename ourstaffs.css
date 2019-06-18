@@ -1,0 +1,61 @@
+
+/*	----------------------------------------------------------
+	Staff
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = */
+
+.candidate {
+	-moz-box-shadow: 0 0 2px #1d3f3e;
+	-webkit-box-shadow: 0 0 2px#1d3f3e;
+	box-shadow: 0 0 2px #1d3f3e;
+
+  float: left;
+  margin: 20px;
+}
+
+
+.candidate-margins {
+	margin: 24px;
+}
+
+.candidate img{
+	width: 100%;
+	height: auto;
+}
+
+.candidate .name{
+	font-size: 24px;
+	color: #1d3f3e;
+	font-family: 'Archivo Narrow', sans-serif;
+	text-align: center;
+	margin-top: 12px;
+}
+
+.candidate .position {
+	font-family: 'Archivo Narrow', sans-serif;
+	font-size: 18px;
+	color: #3b3b3d;
+	text-align: center;
+}
+
+.candidate:hover {
+	-moz-box-shadow: inset 0 0 12px #c2c0c0;
+	-webkit-box-shadow: inset 0 0 12px #c2c0c0;
+  box-shadow: inner 0 0 12px #c2c0c0;
+  background-color: black;
+  
+}
+
+.candidate a {
+  text-decoration: none;
+  
+}
+
+.candidate-about{
+	margin-left: 12px;
+	width: 59%;
+}
+
+
+/*	----------------------------------------------------------
+	Staff ends
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = */
